@@ -47,7 +47,7 @@ describe('04-date-tasks', () => {
 
     [
       new Date(1900, 1, 1),
-      new Date(2001, 1, 1),
+       ,
     ].forEach((date) => {
       assert(
         tasks.isLeapYear(date) === false,
